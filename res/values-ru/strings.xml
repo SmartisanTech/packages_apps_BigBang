@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="copy_tips">Выбранные тексты уже скопированы</string>
+    <string name="share_title">Поделиться тексты</string>
+    <string name="a_msg_no_words">Неразличенные тексты</string>
+    <string name="text_boom_settings">Big Bang Настройка</string>
+    <string name="default_search_way">Поиск по умолчанию</string>
+    <string name="search_via_baidu">Baidu</string>
+    <string name="search_via_google">Google</string>
+    <string name="search_via_bing">Славарь Bing</string>
+    <string name="search_via_shenma">Shenma</string>
+    <string name="search_via_youdao">Славарь Youdao</string>
+    <string name="search_via_powerword">Iciba</string>
+    <string name="search_via_hudong">Википедия</string>
+    <string name="thumb_trigger_area_tips">Меньше площади трогания, легче активизировать эту функцию. Вы можете менять площадь трогания чтобы не активизировать эту функцию ненамеренно</string>
+    <string name="ocr_tips">/camscanner/CamScanner предоставляют техническую поддержку OCR</string>
+    <string name="dlg_title_notice">Примечание</string>
+    <string name="install_camscanner_message">CamScanner не установлено. Кликать "Установить" и скачать в магазину приложения и вы сможете включить опознавание фото и текста</string>
+    <string name="install_text">"Установить"</string>
+    <string name="default_dict">Славарь по умолчанию</string>
+    <string name="thumb_trigger_area">Область активации</string>
+    <string name="thumb_trigger_area_smallest">Минимальная</string>
+    <string name="thumb_trigger_area_small">Маленькая</string>
+    <string name="thumb_trigger_area_middle">Средняя</string>
+    <string name="thumb_trigger_area_large">Большая</string>
+    <string name="thumb_trigger_area_largest">Максимальная</string>
+    <string name="network_disconnected">Нет подключения к Интернету</string>
+</resources>

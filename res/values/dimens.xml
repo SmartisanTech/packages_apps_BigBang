@@ -1,0 +1,34 @@
+<resources>
+    <dimen name="page_margin_left">17dp</dimen>
+    <dimen name="page_margin_right">16dp</dimen>
+    <dimen name="table_margin_top">32dp</dimen>
+    <dimen name="table_margin_bottom">44dp</dimen>
+    <dimen name="content_padding_top">35dp</dimen>
+    <dimen name="content_padding_bottom">35dp</dimen>
+
+    <dimen name="select_rect_margin_top">16dp</dimen>
+    <dimen name="select_rect_top_offset">28dp</dimen>
+
+    <dimen name="chip_text_size">15dp</dimen>
+    <dimen name="chip_row_padding_top">5dp</dimen>
+    <dimen name="chip_row_height">54dp</dimen>
+    <dimen name="chip_row_move_up_offset">-30dp</dimen>
+    <dimen name="chip_row_move_down_offset">18dp</dimen>
+
+    <dimen name="word_min_width">33dp</dimen>
+    <dimen name="word_base_width">18dp</dimen>
+    <dimen name="punc_min_width">21dp</dimen>
+    <dimen name="punc_base_width">8dp</dimen>
+
+    <dimen name="auto_scroll_top">100dp</dimen>
+    <dimen name="auto_scroll_bottom">165dp</dimen>
+
+    <dimen name="popup_vertical_offset">74dp</dimen>
+    <dimen name="popup_arrow_horrizontal_offset">44dp</dimen>
+    <dimen name="search_popup_height">504dp</dimen>
+
+    <dimen name="fake_select_bar_margin_top">33dp</dimen>
+    <dimen name="fake_select_bar_margin_bottom">55dp</dimen>
+
+    <dimen name="list_transparent_header_footer">9dp</dimen>
+</resources>

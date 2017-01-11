@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:smartisanos="http://schemas.android.com/apk/res/smartisanos"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <smartisanos.widget.SettingItemSwitch
+        android:id="@+id/text_boom_switch"
+        style="@style/SettingSubItemSingleStyle"
+        smartisanos:title="@string/text_boom"
+        android:layout_marginTop="@dimen/list_transparent_header_footer"/>
+
+    <TextView
+        android:id="@+id/id_big_bang_tips"
+        style="@style/SettingItemTipsStyle"/>
+
+    <smartisanos.widget.SettingItemSwitch
+        android:id="@+id/ocr_switch"
+        smartisanos:title="@string/ocr_title"
+        style="@style/SettingSubItemSingleStyle"/>
+
+    <TextView
+        android:id="@+id/id_ocr_tips"
+        style="@style/SettingItemTipsStyle"/>
+
+    <smartisanos.widget.SettingItemText
+        android:id="@+id/textboom_trigger_area_options"
+        style="@style/SettingSubItemSingleStyle"
+        smartisanos:title="@string/thumb_trigger_area"/>
+
+    <TextView
+        style="@style/SettingItemTipsStyle"
+        android:text="@string/thumb_trigger_area_tips"/>
+
+</LinearLayout>

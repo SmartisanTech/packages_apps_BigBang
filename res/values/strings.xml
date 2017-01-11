@@ -1,0 +1,38 @@
+<resources>
+
+    <string name="copy_tips">The selected text has already been copied</string>
+    <string name="share_title">Share This Text</string>
+    <string name="app_label">BigBang</string>
+    <string name="a_msg_no_words">No text recognized</string>
+    <string name="ocr_recognize">Recognizing</string>
+    <string name="ocr_cancel">Press to cancel</string>
+    <string name="scanner_unavailable">Scanner not installed</string>
+    <string name="text_boom">Big Bang</string>
+    <string name="ocr_title">OCR</string>
+    <string name="text_boom_settings">Big Bang Settings</string>
+    <string name="default_search_way">Default Search</string>
+    <string name="search_via_baidu">Baidu</string>
+    <string name="search_via_google">Google</string>
+    <string name="search_via_bing">Bing</string>
+    <string name="search_via_shenma">Shenma</string>
+    <string name="search_via_youdao">Youdao Dictionary</string>
+    <string name="search_via_powerword">Iciba</string>
+    <string name="search_via_hudong">Hudong Baike</string>
+    <string name="search_via_bingdict">Bing Dictionary</string>
+    <string name="search_via_hidict">Dict.CN</string>
+    <string name="search_via_baidupedia">Baidu Baike</string>
+    <string name="thumb_trigger_area_tips">The smaller the trigger size (the size of the area of the screen to trigger Thumb Swipe), the easier it is to set off. You can adjust the trigger size to avoid setting it off accidentally.</string>
+    <string name="ocr_tips">OCR support provided by /camscanner/CamScanner.(unavailable)</string>
+    <string name="big_bang_tips">Smart text support provided by /tricorn/Trio.</string>
+    <string name="dlg_title_notice">Notice</string>
+    <string name="install_camscanner_message">CamScanner is not installed on this system. Tap "Install" to go to the App Market to install this app and start using OCR.</string>
+    <string name="install_text">Install</string>
+    <string name="default_dict">Default Dictionary</string>
+    <string name="thumb_trigger_area">Trigger Area</string>
+    <string name="thumb_trigger_area_smallest">Minimum</string>
+    <string name="thumb_trigger_area_small">Small</string>
+    <string name="thumb_trigger_area_middle">Medium</string>
+    <string name="thumb_trigger_area_large">Large</string>
+    <string name="thumb_trigger_area_largest">Maximum</string>
+    <string name="network_disconnected">No Internet Connection</string>
+</resources>

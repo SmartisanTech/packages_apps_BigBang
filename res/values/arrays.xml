@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="search_engine_text">
+        <item>Search with Baidu</item>
+        <item>Search with Google</item>
+        <item>Search with Bing</item>
+        <item>Search with Shenma</item>
+    </string-array>
+
+    <array name="search_engine_icon">
+        <item>@drawable/boom_win_search_baidu</item>
+        <item>@drawable/boom_win_search_google</item>
+        <item>@drawable/boom_win_search_bing</item>
+        <item>@drawable/boom_win_search_shenma</item>
+    </array>
+
+    <string-array name="search_dict_text">
+        <item>Youdao Dictionary</item>
+        <item>Iciba</item>
+        <item>Bing Dictionary</item>
+        <item>Dict.CN</item>
+    </string-array>
+
+    <array name="search_dict_icon">
+        <item>@drawable/boom_win_search_youdao</item>
+        <item>@drawable/boom_win_search_kingsoft</item>
+        <item>@drawable/boom_win_search_bingdict</item>
+        <item>@drawable/boom_win_search_hidict</item>
+    </array>
+
+    <array name="search_wiki_icon">
+        <item>@drawable/boom_win_search_hudongdict</item>
+        <item>@drawable/boom_win_search_baike</item>
+    </array>
+
+    <string-array name="search_wiki_text">
+        <item>Hudong Baike</item>
+        <item>Baidu Baike</item>
+    </string-array>
+
+    <string-array name="ocr_key">
+        <!--需要申请key-->
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="text_boom_search_ways">
+        <item>@string/search_via_baidu</item>
+        <item>@string/search_via_google</item>
+        <item>@string/search_via_bing</item>
+        <item>@string/search_via_shenma</item>
+        <item>@string/search_via_baidupedia</item>
+        <item>@string/search_via_hudong</item>
+    </string-array>
+
+    <integer-array name="text_boom_search_values">
+        <item>0x000</item>
+        <item>0x001</item>
+        <item>0x002</item>
+        <item>0x003</item>
+        <item>0x011</item>
+        <item>0x010</item>
+    </integer-array>
+
+    <array name="text_boom_search_icons">
+        <item>@drawable/boom_setting_baidu</item>
+        <item>@drawable/boom_setting_google</item>
+        <item>@drawable/boom_setting_bing</item>
+        <item>@drawable/boom_setting_shenma</item>
+        <item>@drawable/boom_setting_baike</item>
+        <item>@drawable/boom_setting_hudongdict</item>
+    </array>
+
+    <!--big bang dict list-->
+    <string-array name="big_bang_dict_name">
+        <item>@string/search_via_bingdict</item>
+        <item>@string/search_via_powerword</item>
+        <item>@string/search_via_hidict</item>
+        <item>@string/search_via_youdao</item>
+    </string-array>
+
+    <integer-array name="big_bang_dict_value">
+        <item>0x102</item>
+        <item>0x101</item>
+        <item>0x103</item>
+        <item>0x100</item>
+    </integer-array>
+
+    <array name="big_bang_dict_icon">
+        <item>@drawable/boom_setting_bingdict</item>
+        <item>@drawable/boom_setting_kingsoft</item>
+        <item>@drawable/boom_setting_hidict</item>
+        <item>@drawable/boom_setting_youdao</item>
+    </array>
+
+    <string-array name="thumb_trigger_area_options">
+        <item>@string/thumb_trigger_area_smallest</item>
+        <item>@string/thumb_trigger_area_small</item>
+        <item>@string/thumb_trigger_area_middle</item>
+        <item>@string/thumb_trigger_area_large</item>
+        <item>@string/thumb_trigger_area_largest</item>
+    </string-array>
+
+</resources>

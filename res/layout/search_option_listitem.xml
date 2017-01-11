@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="45dp">
+
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <smartisanos.widget.FontFitTextView
+        android:id="@+id/item_text"
+        android:layout_toRightOf="@+id/item_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="#9a000000"
+        android:singleLine="true"
+        android:maxWidth="122dp"
+        android:textSize="15sp"/>
+
+    <ImageView
+        android:id="@+id/item_check"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="7dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/boom_win_popup_select"/>
+</RelativeLayout>

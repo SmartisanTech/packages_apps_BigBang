@@ -1,0 +1,12 @@
+<resources>
+    <integer name="screen_width">1080</integer>
+    <integer name="screen_height">1920</integer>
+
+    <dimen name="ocr_message_bottom">200px</dimen>
+    <integer name="status_bar_height">80</integer>
+    <dimen name="screen_w">360dp</dimen>
+    <dimen name="screen_h">640dp</dimen>
+
+    <integer name="gallery_top">234</integer>
+    <integer name="gallery_bottom">156</integer>
+</resources>

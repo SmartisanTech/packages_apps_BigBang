@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="search_engine_text">
+        <item>在百度中搜尋</item>
+        <item>在谷歌中搜尋</item>
+        <item>在必應中搜尋</item>
+        <item>在神馬中搜尋</item>
+    </string-array>
+
+    <string-array name="search_dict_text">
+        <item>有道詞典</item>
+        <item>金山詞霸</item>
+        <item>必應詞典</item>
+        <item>海詞詞典</item>
+    </string-array>
+
+    <string-array name="search_wiki_text">
+        <item>互動百科</item>
+        <item>百度百科</item>
+    </string-array>
+</resources>

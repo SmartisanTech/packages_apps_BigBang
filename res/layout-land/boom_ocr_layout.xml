@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ocr_page"
+    android:layout_width="@dimen/screen_h"
+    android:layout_height="@dimen/screen_w"
+    >
+
+    <FrameLayout
+        android:id="@+id/anim_loop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/loop_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boom_loop"
+            >
+        </ImageView>
+        <ImageView
+            android:id="@+id/loop_rotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boom_light"
+            >
+        </ImageView>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/click_layout"
+        />
+
+</FrameLayout>

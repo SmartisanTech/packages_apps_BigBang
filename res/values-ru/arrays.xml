@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="search_engine_text">
+        <item>Поиск в Baidu</item>
+        <item>Поиск в Google</item>
+        <item>Поиск в Bing</item>
+        <item>Поиск в Shenma</item>
+    </string-array>
+
+    <string-array name="search_dict_text">
+        <item>Славарь Youdao</item>
+        <item>Iciba</item>
+        <item>Славарь Bing</item>
+        <item>Dict.CN</item>
+    </string-array>
+
+    <string-array name="search_wiki_text">
+        <item>Википедия</item>
+        <item>Baidu Baike</item>
+    </string-array>
+</resources>

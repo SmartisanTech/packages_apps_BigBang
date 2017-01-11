@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/boom_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/boom_background_color"
+    android:visibility="invisible">
+
+    <com.smartisanos.textboom.CustomScrollView
+        android:id="@+id/boom_scroller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/table_margin_bottom"
+        android:layout_marginTop="@dimen/table_margin_top"
+        android:clipChildren="false">
+
+        <FrameLayout
+            android:id="@+id/boom_table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            android:layout_marginTop="7dp">
+
+            <LinearLayout
+                android:id="@+id/boom_multi_selected_bg"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@drawable/boom_multi_select_bg"
+                android:visibility="gone" />
+
+            <com.smartisanos.textboom.SwipeSelectView
+                android:id="@+id/boom_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/page_margin_left"
+                android:layout_marginRight="@dimen/page_margin_right"
+                android:clipToPadding="false"
+                android:clipChildren="false"
+                android:background="@android:color/transparent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/content_padding_bottom"
+                android:paddingTop="@dimen/content_padding_top" />
+
+            <include android:id="@+id/multi_selected_bar"
+                     layout="@layout/multi_select_bar"/>
+        </FrameLayout>
+    </com.smartisanos.textboom.CustomScrollView>
+
+    <RelativeLayout
+        android:id="@+id/boom_mask"
+        android:layout_marginTop="25.4dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/shadow_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/boom_shadow_top"/>
+
+        <RelativeLayout
+            android:id="@+id/mask_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:clickable="true"
+            android:background="@drawable/boom_mask_bottom">
+
+            <ImageButton
+                android:id="@+id/mask_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/boom_cancel_bg" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="@dimen/fake_select_bar_margin_top"
+        android:layout_marginBottom="@dimen/fake_select_bar_margin_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include android:id="@+id/fake_multi_selected_bar"
+                layout="@layout/multi_select_bar"/>
+    </RelativeLayout>
+</FrameLayout>

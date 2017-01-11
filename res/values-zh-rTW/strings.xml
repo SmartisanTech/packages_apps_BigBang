@@ -1,0 +1,35 @@
+<resources>
+
+    <string name="copy_tips">所選的文字已複製到剪貼板</string>
+    <string name="share_title">分享以下文字</string>
+    <string name="app_label">大爆炸</string>
+    <string name="a_msg_no_words">未識別出文字</string>
+    <string name="ocr_title">图像文字识别</string>
+    <string name="text_boom">大爆炸</string>
+    <string name="text_boom_settings">大爆炸設定</string>
+    <string name="default_search_way">預設搜尋</string>
+    <string name="search_via_baidu">百度搜尋</string>
+    <string name="search_via_google">谷歌搜尋</string>
+    <string name="search_via_bing">必應搜尋</string>
+    <string name="search_via_shenma">神馬搜尋</string>
+    <string name="search_via_youdao">有道詞典</string>
+    <string name="search_via_powerword">金山詞霸</string>
+    <string name="search_via_hudong">互動百科</string>
+    <string name="search_via_bingdict">必應詞典</string>
+    <string name="search_via_hidict">海詞詞典</string>
+    <string name="search_via_baidupedia">百度百科</string>
+    <string name="thumb_trigger_area_tips">觸發面積越小，越容易觸發此功能。您可以通過調整觸發面積來避免誤觸</string>
+    <string name="ocr_tips">/camscanner/扫描全能王提供 OCR 技术支持</string>
+    <string name="big_bang_tips">/tricorn/三角兽提供智能分词技术支持</string>
+    <string name="dlg_title_notice">提醒</string>
+    <string name="install_camscanner_message">当前系统中未安装“扫描全能王”应用。点击“安装”前往应用商店下载并安装后即可启用图像文字识别功能</string>
+    <string name="install_text">"安裝"</string>
+    <string name="default_dict">默认词典</string>
+    <string name="thumb_trigger_area">"觸發面積"</string>
+    <string name="thumb_trigger_area_smallest">最小</string>
+    <string name="thumb_trigger_area_small">"小"</string>
+    <string name="thumb_trigger_area_middle">"中等"</string>
+    <string name="thumb_trigger_area_large">"大"</string>
+    <string name="thumb_trigger_area_largest">最大</string>
+    <string name="network_disconnected">無網路連接</string>
+</resources>

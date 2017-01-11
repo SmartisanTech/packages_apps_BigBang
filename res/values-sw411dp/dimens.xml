@@ -1,0 +1,14 @@
+<resources>
+    <integer name="screen_width">1440</integer>
+    <integer name="screen_height">2560</integer>
+
+    <dimen name="ocr_message_bottom">250px</dimen>
+    <integer name="status_bar_height">90</integer>
+    <dimen name="screen_w">1440px</dimen>
+    <dimen name="screen_h">2560px</dimen>
+    <dimen name="search_popup_height">587dp</dimen>
+    <dimen name="chip_row_height">190px</dimen>
+
+    <integer name="gallery_top">273</integer>
+    <integer name="gallery_bottom">183</integer>
+</resources>

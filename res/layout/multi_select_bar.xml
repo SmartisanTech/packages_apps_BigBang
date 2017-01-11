@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/page_margin_left"
+        android:layout_marginRight="@dimen/page_margin_right"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+    <ImageView
+            android:id="@+id/all_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/boom_chips_all_search" />
+
+    <ImageView
+            android:id="@+id/all_dict"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/all_search"
+            android:src="@drawable/boom_chips_all_dict" />
+
+    <ImageView
+            android:id="@+id/all_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_toLeftOf="@+id/all_copy"
+            android:src="@drawable/boom_chips_all_share" />
+
+    <ImageView
+            android:id="@+id/all_copy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="1dp"
+            android:src="@drawable/boom_chips_all_copy" />
+</RelativeLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@*smartisanos:dimen/search_popup_width"
+    android:layout_height="@dimen/search_popup_height"
+    android:background="@drawable/boom_win_shadow"
+    android:onClick="outsideClick"
+    android:orientation="vertical">
+
+    <WebView
+        android:id="@+id/search_webview"
+        android:layout_marginTop="@*smartisanos:dimen/search_webview_vertical_margin"
+        android:layout_marginBottom="@*smartisanos:dimen/search_webview_vertical_margin"
+        android:overScrollMode="never"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/top_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:clickable="true"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boom_win_titlebar"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/search_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:paddingTop="2dp"
+                    android:maxWidth="178dp"
+                    android:singleLine="true"
+                    android:textColor="#9a000000"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/goto_browser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/boom_win_browser" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@*smartisanos:drawable/search_topbar_shadow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bottom_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:clickable="true"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@*smartisanos:drawable/search_bottombar_shadow" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boom_win_bottombar"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/go_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/boom_win_go_back"
+                    android:enabled="false" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true" >
+
+                    <ProgressBar
+                        android:id="@+id/search_progress"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@null"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:indeterminate="false"
+                        android:indeterminateDrawable="@drawable/boom_search_loading_progess"
+                        android:visibility="gone" />
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/search_web"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/boom_win_search_more_bg"/>
+
+                        <RadioButton
+                            android:id="@+id/search_dict"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/boom_win_search_more_bg"/>
+
+                        <RadioButton
+                            android:id="@+id/search_wiki"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/boom_win_search_more_bg"/>
+                    </RadioGroup>
+                </FrameLayout>
+
+                <ImageView
+                    android:id="@+id/search_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/boom_win_setting" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

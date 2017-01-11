@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="copy_tips">선택하신 글자가 이미 클립보드에 복사 되었습니다</string>
+    <string name="share_title">아래의 문자 공유</string>
+    <string name="a_msg_no_words">식별되지 않은 글자 입니다</string>
+    <string name="text_boom_settings">Big Bang 설정</string>
+    <string name="default_search_way">기본 검색 방법</string>
+    <string name="search_via_baidu">바이두</string>
+    <string name="search_via_google">구글</string>
+    <string name="search_via_bing">Bing</string>
+    <string name="search_via_shenma">Shenma</string>
+    <string name="search_via_youdao">Youdao 사전</string>
+    <string name="search_via_powerword">Iciba</string>
+    <string name="search_via_hudong">Wikipedia</string>
+    <string name="search_via_bingdict">Bing 사전</string>
+    <string name="search_via_hidict">Dict.CN</string>
+    <string name="search_via_baidupedia">Baidu 백과</string>
+    <string name="thumb_trigger_area_tips">접촉하는 면적이 적을수록，이 기능을 사용하기 더 쉽습니다。조정을 통해 오류를 피할수 있습니다</string>
+    <string name="ocr_tips">/camscanner/ OCR 스캔 기술 지원</string>
+    <string name="dlg_title_notice">"주의"</string>
+    <string name="install_camscanner_message">현재 시스템에 설치 되지 않은“Camscanner”어플。“설치”클릭 어플 마켓에서 다운 또는 설치후 즉시 작동시켜 이미지의 문자 식별 기능 실행.</string>
+    <string name="install_text">"설치"</string>
+    <string name="default_dict">기본사전</string>
+    <string name="thumb_trigger_area">"트리거 영역"</string>
+    <string name="thumb_trigger_area_smallest">"최소"</string>
+    <string name="thumb_trigger_area_small">"작게"</string>
+    <string name="thumb_trigger_area_middle">"보통"</string>
+    <string name="thumb_trigger_area_large">"크게"</string>
+    <string name="thumb_trigger_area_largest">"최대"</string>
+    <string name="network_disconnected">"인터넷에 연결되지 않음"</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="search_engine_text">
+        <item>Baidu에서 검색</item>
+        <item>Google에서 검색</item>
+        <item>Bing에서 검색</item>
+        <item>Shenma에서 검색</item>
+    </string-array>
+
+    <string-array name="search_dict_text">
+        <item>Youdao 사전</item>
+        <item>Iciba</item>
+        <item>Bing 사전</item>
+        <item>Dict.CN</item>
+    </string-array>
+
+    <string-array name="search_wiki_text">
+        <item>Hudong Baike</item>
+        <item>Baidu 백과</item>
+    </string-array>
+</resources>

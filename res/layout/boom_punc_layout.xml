@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/chip_row_padding_top"
+    android:paddingBottom="@dimen/chip_row_padding_top"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/punc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:maxWidth="260dp"
+        android:background="@drawable/boom_chips_punctuate"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/chip_text_size" />
+</LinearLayout>

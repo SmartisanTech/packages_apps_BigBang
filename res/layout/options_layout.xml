@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <smartisanos.widget.Title
+        android:id="@+id/view_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        />
+
+    <ListView
+        android:id="@+id/options_list"
+        style="@style/ListViewGeneralStyle"
+        android:layout_below="@id/view_title"/>
+
+    <include layout="@layout/title_bar_shadow"/>
+
+</RelativeLayout>

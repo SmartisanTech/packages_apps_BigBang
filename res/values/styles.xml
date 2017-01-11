@@ -1,0 +1,97 @@
+<resources>
+
+    <style name="BaseStyle">
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="BaseStyleTrans">
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="BoomSearchActivityStyle" parent="BaseStyle">
+        <item name="android:windowAnimationStyle">@android:style/Animation.InputMethod</item>
+    </style>
+
+    <style name="ListViewGeneralStyle">
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:overScrollMode">always</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="SettingItemHeaderStyle">
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">0.1</item>
+        <item name="android:shadowColor">#2dffffff</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:maxWidth">307dip</item>
+        <item name="android:textColor">#80000000</item>
+        <item name="android:textSize">13.5sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginTop">7dip</item>
+        <item name="android:layout_marginBottom">1dip</item>
+    </style>
+
+
+    <style name="SettingItemTipsStyle">
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">0.1</item>
+        <item name="android:shadowColor">#2dffffff</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">13dp</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:textColor">#80000000</item>
+        <item name="android:textSize">13.5sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="SettingItemGeneralStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="SettingSubItemSingleStyle" parent="SettingItemGeneralStyle">
+        <item name="android:background">@drawable/selector_setting_sub_item_bg_single</item>
+    </style>
+    <style name="SettingSubItemTopStyle" parent="SettingItemGeneralStyle">
+        <item name="android:background">@drawable/selector_setting_sub_item_bg_top</item>
+    </style>
+    <style name="SettingSubItemBottomStyle" parent="SettingItemGeneralStyle">
+        <item name="android:background">@drawable/selector_setting_sub_item_bg_bottom</item>
+    </style>
+    <style name="SettingSubItemMidStyle" parent="SettingItemGeneralStyle">
+        <item name="android:background">@drawable/selector_setting_sub_item_bg_middle</item>
+    </style>
+    <style name="SettingTheme" parent="@*android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@smartisanos:drawable/win_background</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+    </style>
+</resources>

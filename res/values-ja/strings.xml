@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="copy_tips">選択したテキストはクリップボードにコピーされました</string>
+    <string name="share_title">以下のテキストをシェア</string>
+    <string name="a_msg_no_words">文字は識別していない</string>
+    <string name="text_boom_settings">Big Bang 設定</string>
+    <string name="default_search_way">デフォルトサーチ方法</string>
+    <string name="search_via_baidu">baidu検索</string>
+    <string name="search_via_google">Google検索</string>
+    <string name="search_via_bing">bing検索</string>
+    <string name="search_via_shenma">shenma検索</string>
+    <string name="search_via_powerword">Iciba</string>
+    <string name="search_via_hudong">Baike検索</string>
+    <string name="search_via_bingdict">Bing辞書</string>
+    <string name="search_via_hidict">Dict.CN</string>
+    <string name="search_via_youdao">Youdao辞書</string>
+    <string name="thumb_trigger_area_tips">接触面積を小さくすると、より容易にこの機能が起動しやすくなります。接触面積を調節することで誤起動を防ぐことができます</string>
+    <string name="dlg_title_notice">"注意"</string>
+    <string name="install_text">"インストール"</string>
+    <string name="thumb_trigger_area">"トリガーエリア"</string>
+    <string name="thumb_trigger_area_smallest">"最小"</string>
+    <string name="thumb_trigger_area_small">"小"</string>
+    <string name="thumb_trigger_area_middle">"中"</string>
+    <string name="thumb_trigger_area_large">"大"</string>
+    <string name="thumb_trigger_area_largest">"最大"</string>
+    <string name="network_disconnected">"インターネット接続なし"</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="setting_item_text_color">#cc000000</color>
+    <color name="setting_item_text_color_light">#d9d9d9</color>
+    <color name="setting_item_text_color_highlight">#ffffff</color>
+    <color name="setting_item_text_color_disabled">#BABABA</color>
+</resources>

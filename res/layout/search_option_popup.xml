@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ListView
+        android:id="@+id/option_listview"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:listSelector="@android:color/transparent"
+        android:divider="#14000000"
+        android:dividerHeight="2px"
+        android:background="@drawable/boom_win_popup_bg" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="@drawable/boom_win_popup_arrow"/>
+
+</FrameLayout>
